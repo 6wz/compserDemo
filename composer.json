@@ -1,0 +1,15 @@
+{
+    "name": "composer_demo/get_random",
+    "description": "composer自定义包测试-获取随机数",
+    "authors": [
+        {
+            "name": "lwz"
+        }
+    ],
+    "require": {} ,
+	"autoload":{
+		"psr-4" :{
+			"composerDemo\\getRandom\\":"src/"
+		}
+	}
+}
